@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+background: url('img/bannerbg.jpg');
+background-position: right;
+background-size: cover;
+width: 100%;
+height: 100vh;
+background-repeat: no-repeat;
+}
+
+.top-banner{
+    width: 100%;
+    min-height: 50px;
+    background: #939393;
+    box-shadow: 0 0 5px rgba(0,0,0,0.5);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 84px;
+    color: #FFFFFF;
+}
+
+.contact p{
+    display: inline-block;
+    padding-right: 18px;
+    font-family: sans-serif;
+}
+
+.contact p span a{
+    font-family:sans-serif;
+    font-weight: bold;
+    transition: all 0.5s;
+    color: white;
+    text-decoration: none;
+}
+
+.contact p span a:hover{
+  color: #383968;
+}
+
+.login{
+    text-decoration: none;
+    background-color: #ffffff;
+    padding: 14px;
+    font-family: sans-serif;
+    font-size: large;
+    transition: all 0.5s;
+}
+
+.login:hover{
+    background-color:#38395B;
+    color: white;
+}
+
+/* Navbar */
+.navbar{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    background-image: url('img/headermenu.png');
+    background-position: center top;
+    background-repeat: no-repeat;
+    min-height: 91px;
+    border-radius: 0 0 90px 17px;
+    justify-content: space-around;
+}
+
+.navbar ul{
+  display: flex;
+}
+
+.navbar ul li{
+    list-style: none;
+}
+
+.navbar ul li a{
+    color: #383967;
+    font-size: 14px;
+    padding: 11px;
+    text-decoration: none;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-family: sans-serif;
+}
+
+ul li a.active{
+    color:#D51C55;
+}
+
+.navbar ul li a:hover{
+    color:#D51C55;
+}
+
+.icon {
+    background-color: red;
+    color: green;
+    font-size: xx-large;
+}
+
+.bus img{
+    width: 37%;
+    position: relative;
+    top: 62px;
+    left: 50%;
+}
+
+#citySearch{
+    display: none;
+}
+
+.Ticket-form h2{
+    background-image: url(img/booktitlebg.png);
+    background-position: left bottom;
+    background-repeat: no-repeat;
+    float: left;
+    width: 100%;
+    max-width: 438px;
+    height: 57px;
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 20px;
+    text-transform: uppercase;
+    margin: 0;
+    line-height: normal;
+    position: absolute;
+    top: auto;
+    bottom: 100%;
+    left: 0;
+    padding: 15px 0 0 21px;
+}
+
+
+
